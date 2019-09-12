@@ -2,6 +2,6 @@ node{
 	stage('scm'){
 	git 'https://github.com/devopstraining4/baby1'
 	}
-	stage {'Compilation){
+	stage {'Compilation'){
 	sh 'mvn package'
 	}
